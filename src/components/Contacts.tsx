@@ -4,7 +4,7 @@ import { FaInstagram, FaWhatsapp } from "react-icons/fa6";
 export function Contacts() {
   // Configuração do WhatsApp
   const phone = "5511960702061"; // Insira aqui o seu número com DDD (apenas números)
-  const defaultMessage = "Olá! Gostaria de saber mais sobre o desenvolvimento de sites e serviços de Qualidade de Software.";
+  const defaultMessage = "Olá! Gostaria de saber mais sobre o desenvolvimento de sites e serviços da DB Qualidade de Software.";
   
   // Link formatado para o WhatsApp API
   const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(defaultMessage)}`;
